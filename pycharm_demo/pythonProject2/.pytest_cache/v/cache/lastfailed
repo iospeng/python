@@ -1,0 +1,6 @@
+{
+  "test_cases/test_hn_test.py::test_hn_suspect::test_01": true,
+  "test_cases/test_hn_test.py::test_hn_suspect::test_03": true,
+  "test_cases/test_hn_test.py::test_hn_suspect::test_reset": true,
+  "test_cases/test_zj_suspect.py::test_mainpage::test_login": true
+}

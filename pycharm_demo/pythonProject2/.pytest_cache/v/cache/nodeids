@@ -1,0 +1,9 @@
+[
+  "test_cases/test_hn_test.py::test_hn_suspect::test_01",
+  "test_cases/test_hn_test.py::test_hn_suspect::test_02",
+  "test_cases/test_hn_test.py::test_hn_suspect::test_03",
+  "test_cases/test_hn_test.py::test_hn_suspect::test_reset",
+  "test_cases/test_zj_datatest.py::test_warninfo::test_reset",
+  "test_cases/test_zj_monitor.py::test_monitor::test_case",
+  "test_cases/test_zj_suspect.py::test_mainpage::test_login"
+]

@@ -1,0 +1,44 @@
+2021-05-26 10:35:28,059 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-05-26 10:35:28,060 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): 127.0.0.1:58487
+2021-05-26 10:35:28,840 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session HTTP/1.1" 200 755
+2021-05-26 10:35:28,850 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:28,850 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/window/maximize {}
+2021-05-26 10:35:29,005 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/window/maximize HTTP/1.1" 200 51
+2021-05-26 10:35:29,008 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:29,010 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/url {"url": "http://192.168.90.101/login/login.html?service=http://192.168.90.163:9325/illegal/"}
+2021-05-26 10:35:29,343 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/url HTTP/1.1" 200 14
+2021-05-26 10:35:29,344 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:30,344 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element {"using": "xpath", "value": "//*[@id=\"username\"]"}
+2021-05-26 10:35:30,354 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element HTTP/1.1" 200 88
+2021-05-26 10:35:30,355 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:30,355 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element/eeda94e9-cdc2-4e78-b712-ba561bc6a8ee/value {"text": "system", "value": ["s", "y", "s", "t", "e", "m"], "id": "eeda94e9-cdc2-4e78-b712-ba561bc6a8ee"}
+2021-05-26 10:35:30,415 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element/eeda94e9-cdc2-4e78-b712-ba561bc6a8ee/value HTTP/1.1" 200 14
+2021-05-26 10:35:30,416 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:31,418 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element {"using": "xpath", "value": "//*[@id=\"password\"]"}
+2021-05-26 10:35:31,430 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element HTTP/1.1" 200 88
+2021-05-26 10:35:31,430 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:31,430 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element/2c37a0ff-bef7-4614-bd08-db51b9885900/value {"text": "12345678", "value": ["1", "2", "3", "4", "5", "6", "7", "8"], "id": "2c37a0ff-bef7-4614-bd08-db51b9885900"}
+2021-05-26 10:35:31,484 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element/2c37a0ff-bef7-4614-bd08-db51b9885900/value HTTP/1.1" 200 14
+2021-05-26 10:35:31,485 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:32,497 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element {"using": "xpath", "value": "//*[@id=\"login-Button\"]"}
+2021-05-26 10:35:32,506 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element HTTP/1.1" 200 88
+2021-05-26 10:35:32,506 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:32,507 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element/eccb3ec6-e805-4f5f-a3fb-61750296ca42/click {"id": "eccb3ec6-e805-4f5f-a3fb-61750296ca42"}
+2021-05-26 10:35:32,542 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element/eccb3ec6-e805-4f5f-a3fb-61750296ca42/click HTTP/1.1" 200 14
+2021-05-26 10:35:32,542 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:35,552 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element {"using": "xpath", "value": "/html/body/div/div[1]/div[1]/div/ul/li[2]/div/a/span[2]"}
+2021-05-26 10:35:35,587 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element HTTP/1.1" 200 88
+2021-05-26 10:35:35,588 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:35,588 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element/fdc3c10b-7456-46d7-84a4-93023fe68ceb/click {"id": "fdc3c10b-7456-46d7-84a4-93023fe68ceb"}
+2021-05-26 10:35:35,635 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element/fdc3c10b-7456-46d7-84a4-93023fe68ceb/click HTTP/1.1" 200 14
+2021-05-26 10:35:35,635 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:39,646 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element {"using": "xpath", "value": "/html/body/div/div[1]/div[1]/div/ul/li[2]/ul/li[1]/div"}
+2021-05-26 10:35:39,674 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element HTTP/1.1" 200 88
+2021-05-26 10:35:39,674 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:39,674 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element/ce9ee3ec-bc24-458e-a05c-a29332bdfd01/click {"id": "ce9ee3ec-bc24-458e-a05c-a29332bdfd01"}
+2021-05-26 10:35:39,745 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element/ce9ee3ec-bc24-458e-a05c-a29332bdfd01/click HTTP/1.1" 200 14
+2021-05-26 10:35:39,746 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:39,746 - remote_connection.py[line:388] - DEBUG: POST http://127.0.0.1:58487/session/3fa676a9a13eda891157c4262d1198f1/element {"using": "xpath", "value": "//*[@id=\"defaultForm\"]/div[1]/div/input"}
+2021-05-26 10:35:39,765 - connectionpool.py[line:452] - DEBUG: http://127.0.0.1:58487 "POST /session/3fa676a9a13eda891157c4262d1198f1/element HTTP/1.1" 404 1048
+2021-05-26 10:35:39,765 - remote_connection.py[line:440] - DEBUG: Finished Request
+2021-05-26 10:35:39,766 - loggers.py[line:30] - ERROR: 封装日志类

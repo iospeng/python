@@ -1,0 +1,1176 @@
+DEBUG AutoTestLog 2021-03-19 14:21:08,593 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-19 14:21:16,957 test_hn_test.py [第58行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-19 14:21:16,960 test_hn_test.py [第60行] 日志详情：状态复位，删除下载文件
+DEBUG AutoTestLog 2021-03-19 14:21:20,687 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-19 14:21:23,695 hn.py [第17行] 日志详情：生成随机ID 3l2m748j376bahf408ic
+DEBUG AutoTestLog 2021-03-19 14:21:23,771 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:21:23,772 hn.py [第60行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-19 14:21:23,832 hn.py [第78行] 日志详情：('成功插入', 1, '条数据')
+INFO AutoTestLog 2021-03-19 14:21:23,832 test_hn_test.py [第67行] 日志详情：增加MQ推送的车辆到疑似车辆库
+DEBUG AutoTestLog 2021-03-19 14:21:27,588 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+ERROR AutoTestLog 2021-03-19 14:21:33,857 test_hn_test.py [第86行] 日志详情：期望预警总数：豫A00001，实际预警总数：豫AL6838
+Traceback (most recent call last):
+  File "/Users/liusonghao/PycharmProjects/pythonProject2/test_cases/test_hn_test.py", line 84, in test_03
+    self.assertEqual(expinfo, acuinfo)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '豫A00001' != '豫AL6838'
+- 豫A00001
++ 豫AL6838
+
+DEBUG AutoTestLog 2021-03-19 14:24:10,118 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-19 14:24:13,126 hn.py [第17行] 日志详情：生成随机ID 0f956mci1875j69b0h2d
+DEBUG AutoTestLog 2021-03-19 14:24:13,219 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:24:13,220 hn.py [第60行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-19 14:24:13,274 hn.py [第78行] 日志详情：('成功插入', 1, '条数据')
+INFO AutoTestLog 2021-03-19 14:24:13,274 test_hn_test.py [第67行] 日志详情：增加MQ推送的车辆到疑似车辆库
+INFO AutoTestLog 2021-03-19 14:24:13,388 mqpush.py [第45行] 日志详情：mqpush.py开始运行
+WARNING AutoTestLog 2021-03-19 14:24:13,586 test_hn_test.py [第72行] 日志详情：-11
+DEBUG AutoTestLog 2021-03-19 14:26:51,141 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-19 14:26:59,446 test_hn_test.py [第58行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-19 14:26:59,447 test_hn_test.py [第60行] 日志详情：状态复位，删除下载文件
+DEBUG AutoTestLog 2021-03-19 14:27:02,986 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-19 14:27:05,987 hn.py [第17行] 日志详情：生成随机ID 54lg9b102398k7mc663i
+DEBUG AutoTestLog 2021-03-19 14:27:06,463 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:27:06,463 hn.py [第60行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-19 14:27:06,549 hn.py [第78行] 日志详情：('成功插入', 1, '条数据')
+INFO AutoTestLog 2021-03-19 14:27:06,549 test_hn_test.py [第67行] 日志详情：增加MQ推送的车辆到疑似车辆库
+INFO AutoTestLog 2021-03-19 14:27:06,706 mqpush.py [第45行] 日志详情：mqpush.py开始运行
+WARNING AutoTestLog 2021-03-19 14:27:07,437 test_hn_test.py [第72行] 日志详情：-11
+DEBUG AutoTestLog 2021-03-19 14:27:11,596 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+ERROR AutoTestLog 2021-03-19 14:27:17,945 test_hn_test.py [第87行] 日志详情：期望预警总数：豫A00001，实际预警总数：豫AL6838
+Traceback (most recent call last):
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '豫A00001' != '豫AL6838'
+- 豫A00001
++ 豫AL6838
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liusonghao/PycharmProjects/pythonProject2/test_cases/test_hn_test.py", line 85, in test_03
+    self.assertEqual(expinfo, acuinfo)
+  File "/Applications/PyCharm CE.app/Contents/plugins/python-ce/helpers/pycharm/teamcity/diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 豫A00001 != 豫AL6838
+DEBUG AutoTestLog 2021-03-19 14:32:24,678 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:32:24,679 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-19 14:32:24,685 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-19 14:32:24,685 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-19 14:32:24,685 hn.py [第36行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-19 14:32:24,909 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:32:24,909 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-19 14:32:24,937 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-19 14:32:24,937 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-19 14:32:24,938 hn.py [第36行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-19 14:32:24,938 hn.py [第114行] 日志详情：('删除', '豫A00001', ' 该车辆', 7, '条数据')
+DEBUG AutoTestLog 2021-03-19 14:32:25,059 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:32:25,059 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-19 14:32:25,106 hn.py [第118行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-19 14:32:25,240 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:32:25,240 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-19 14:32:25,252 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-19 14:32:25,253 hn.py [第121行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-19 14:32:25,351 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:32:25,351 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-19 14:32:25,366 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-19 14:32:25,366 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-19 14:32:25,468 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-19 14:32:25,468 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-19 14:32:25,496 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-19 14:32:25,496 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-22 13:16:19,504 test_zj_monitor.py [第22行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-22 13:16:24,149 test_zj_monitor.py [第41行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-22 14:06:26,211 report.py [第15行] 日志详情：报告输出模块：获取当前脚本路径
+DEBUG AutoTestLog 2021-03-22 14:06:26,324 report.py [第17行] 日志详情：testsuit填充用例，<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_hn_test.test_hn_suspect testMethod=test_01>, <test_hn_test.test_hn_suspect testMethod=test_02>, <test_hn_test.test_hn_suspect testMethod=test_03>]>]>]>
+DEBUG AutoTestLog 2021-03-22 14:06:26,324 report.py [第21行] 日志详情：报告输出模块：设置报告格式
+DEBUG AutoTestLog 2021-03-22 14:06:30,812 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-22 14:06:44,588 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-22 14:06:47,596 hn.py [第17行] 日志详情：生成随机ID 35f27h3j192m8b68d1ie
+DEBUG AutoTestLog 2021-03-22 14:06:47,644 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 14:06:47,644 hn.py [第60行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-22 14:06:47,667 hn.py [第78行] 日志详情：('成功插入', 1, '条数据')
+INFO AutoTestLog 2021-03-22 14:06:47,668 test_hn_test.py [第67行] 日志详情：增加MQ推送的车辆到疑似车辆库
+WARNING AutoTestLog 2021-03-22 14:06:47,734 test_hn_test.py [第72行] 日志详情：MQpush。sendOK，返回码：2
+DEBUG AutoTestLog 2021-03-22 14:06:51,375 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-22 14:06:59,956 report.py [第36行] 日志详情：报告已上传192.168.90.162/linkcld/uploadfile/report.html
+DEBUG AutoTestLog 2021-03-22 14:10:16,574 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-22 14:10:25,010 test_hn_test.py [第60行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-22 14:12:04,642 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-22 14:12:13,549 test_hn_test.py [第60行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-22 14:12:13,549 test_hn_test.py [第62行] 日志详情：状态复位，删除下载文件
+DEBUG AutoTestLog 2021-03-22 14:13:27,521 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-22 14:13:38,828 test_hn_test.py [第60行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-22 14:13:38,828 test_hn_test.py [第62行] 日志详情：状态复位，删除下载文件
+DEBUG AutoTestLog 2021-03-22 14:13:54,403 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-22 14:14:05,841 test_hn_test.py [第60行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-22 14:15:28,870 report.py [第15行] 日志详情：报告输出模块：获取当前脚本路径
+DEBUG AutoTestLog 2021-03-22 14:15:28,874 report.py [第17行] 日志详情：testsuit填充用例，<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_zj_suspect.test_mainpage testMethod=test_login>, <test_zj_suspect.test_mainpage testMethod=test_loginsystem>, <test_zj_suspect.test_mainpage testMethod=test_suspectdownload>, <test_zj_suspect.test_mainpage testMethod=test_suspectserch>, <test_zj_suspect.test_mainpage testMethod=test_suspectupload>]>]>]>
+DEBUG AutoTestLog 2021-03-22 14:15:28,874 report.py [第21行] 日志详情：报告输出模块：设置报告格式
+DEBUG AutoTestLog 2021-03-22 14:15:32,625 test_zj_suspect.py [第39行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-22 14:15:36,385 test_zj_suspect.py [第79行] 日志详情：断言成功
+DEBUG AutoTestLog 2021-03-22 14:15:40,005 test_zj_suspect.py [第39行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-22 14:15:43,069 test_zj_suspect.py [第57行] 日志详情：断言成功
+DEBUG AutoTestLog 2021-03-22 14:15:46,797 test_zj_suspect.py [第39行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-22 14:15:55,128 test_zj_suspect.py [第153行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-22 14:15:55,129 test_zj_suspect.py [第155行] 日志详情：状态复位，删除下载文件
+DEBUG AutoTestLog 2021-03-22 14:15:58,697 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-22 14:16:01,703 oprate.py [第18行] 日志详情：生成随机ID ehj56la10bmk12835i7f
+DEBUG AutoTestLog 2021-03-22 14:16:01,735 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-22 14:16:01,735 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-22 14:16:01,772 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 2)
+INFO AutoTestLog 2021-03-22 14:16:01,773 test_zj_suspect.py [第117行] 日志详情：插入车牌浙A00001，level=2
+INFO AutoTestLog 2021-03-22 14:16:02,350 test_zj_suspect.py [第132行] 日志详情：断言成功, acuinfo: 浙A00001
+DEBUG AutoTestLog 2021-03-22 14:16:02,377 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-22 14:16:02,377 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 14:16:02,382 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 14:16:02,383 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 14:16:02,383 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-22 14:16:02,405 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-22 14:16:02,405 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 14:16:02,410 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 14:16:02,411 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 14:16:02,411 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-22 14:16:02,411 oprate.py [第116行] 日志详情：('删除', '浙A00001', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-22 14:16:02,430 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-22 14:16:02,431 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 14:16:02,441 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-22 14:16:02,467 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-22 14:16:02,467 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 14:16:02,475 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 14:16:02,475 oprate.py [第123行] 日志详情：删除成功
+ERROR AutoTestLog 2021-03-22 14:16:04,671 test_zj_suspect.py [第37行] 日志详情：网络错误
+INFO AutoTestLog 2021-03-22 14:16:07,038 report.py [第36行] 日志详情：报告已上传192.168.90.162/linkcld/uploadfile/report.html
+DEBUG AutoTestLog 2021-03-22 14:17:33,718 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-22 14:17:42,260 test_hn_test.py [第60行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-22 14:34:38,599 report.py [第15行] 日志详情：报告输出模块：获取当前脚本路径
+DEBUG AutoTestLog 2021-03-22 14:34:38,684 report.py [第17行] 日志详情：testsuit填充用例，<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_zj_monitor.test_monitor testMethod=test_case>, <test_zj_monitor.test_monitor testMethod=test_monitorupload>]>]>]>
+DEBUG AutoTestLog 2021-03-22 14:34:38,684 report.py [第21行] 日志详情：报告输出模块：设置报告格式
+DEBUG AutoTestLog 2021-03-22 14:34:38,684 test_zj_monitor.py [第22行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-22 14:34:42,742 test_zj_monitor.py [第41行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-22 14:34:45,751 test_zj_monitor.py [第22行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-22 15:57:59,819 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+INFO AutoTestLog 2021-03-22 15:58:12,258 test_hn_test.py [第60行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-22 15:58:17,949 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-22 15:58:20,973 hn.py [第17行] 日志详情：生成随机ID 42chk963l72b01d94i81
+DEBUG AutoTestLog 2021-03-22 15:58:21,007 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 15:58:21,007 hn.py [第60行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-22 15:58:21,023 hn.py [第78行] 日志详情：('成功插入', 1, '条数据')
+INFO AutoTestLog 2021-03-22 15:58:21,024 test_hn_test.py [第69行] 日志详情：增加MQ推送的车辆到疑似车辆库
+WARNING AutoTestLog 2021-03-22 15:58:21,121 test_hn_test.py [第74行] 日志详情：MQpush。sendOK，返回码：1
+DEBUG AutoTestLog 2021-03-22 15:58:27,769 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-22 16:11:44,608 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:11:44,609 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:11:44,614 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:11:44,614 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 16:11:44,615 hn.py [第36行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-22 16:11:44,641 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:11:44,641 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:11:44,646 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:11:44,646 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 16:11:44,646 hn.py [第36行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-22 16:11:44,646 hn.py [第114行] 日志详情：('删除', '豫A00001', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-22 16:11:44,670 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:11:44,670 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:11:44,686 hn.py [第118行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-22 16:11:44,710 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:11:44,710 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:11:44,716 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:11:44,723 hn.py [第121行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-22 16:11:44,748 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:11:44,748 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:11:44,761 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-22 16:11:44,761 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-22 16:11:44,788 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:11:44,788 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:11:44,794 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-22 16:11:44,795 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-22 16:12:47,373 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-22 16:12:50,374 hn.py [第17行] 日志详情：生成随机ID i8389ae1jmglb644713k
+DEBUG AutoTestLog 2021-03-22 16:12:50,414 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:12:50,427 hn.py [第60行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-22 16:12:50,437 hn.py [第78行] 日志详情：('成功插入', 1, '条数据')
+INFO AutoTestLog 2021-03-22 16:12:50,448 test_hn_test.py [第69行] 日志详情：增加MQ推送的车辆到疑似车辆库
+INFO AutoTestLog 2021-03-22 16:12:50,612 mqpush.py [第44行] 日志详情：mqpush.py开始运行
+WARNING AutoTestLog 2021-03-22 16:12:50,677 test_hn_test.py [第74行] 日志详情：MQpush。sendOK，返回码：-11
+DEBUG AutoTestLog 2021-03-22 16:25:35,608 test_hn_test.py [第40行] 日志详情：河南非法营运登陆成功
+DEBUG AutoTestLog 2021-03-22 16:25:38,646 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:38,646 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:38,652 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:38,652 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 16:25:38,653 hn.py [第36行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-22 16:25:38,682 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:38,683 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:38,690 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:38,691 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 16:25:38,691 hn.py [第36行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-22 16:25:38,691 hn.py [第114行] 日志详情：('删除', '豫A00001', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-22 16:25:38,716 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:38,716 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:38,739 hn.py [第118行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:38,771 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:38,772 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:38,782 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:38,783 hn.py [第121行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-22 16:25:38,811 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:38,812 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:38,831 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:38,832 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 16:25:38,832 hn.py [第36行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-22 16:25:38,867 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:38,868 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:38,878 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:38,879 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 16:25:38,879 hn.py [第36行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-22 16:25:38,879 hn.py [第114行] 日志详情：('删除', '豫A00001', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-22 16:25:38,920 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:38,921 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:38,955 hn.py [第118行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:38,980 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:38,980 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:38,988 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:38,988 hn.py [第121行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-22 16:25:39,014 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:39,014 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:39,027 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:39,027 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 16:25:39,027 hn.py [第36行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-22 16:25:39,078 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:39,078 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:39,085 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:39,085 hn.py [第32行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-22 16:25:39,085 hn.py [第36行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-22 16:25:39,086 hn.py [第114行] 日志详情：('删除', '豫A00001', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-22 16:25:39,109 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:39,109 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:39,130 hn.py [第118行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:39,161 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:39,161 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-22 16:25:39,170 hn.py [第29行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-22 16:25:39,170 hn.py [第121行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-22 16:25:39,203 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-22 16:25:39,203 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-25 00:49:30,159 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-25 00:49:30,161 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-25 00:49:30,165 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-25 00:49:30,165 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-25 00:49:30,239 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-25 00:49:30,239 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-25 00:49:30,256 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-25 00:49:30,257 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-25 00:49:30,320 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-25 00:49:30,321 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-25 00:49:30,328 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-25 00:49:30,328 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-25 00:49:38,019 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-25 00:49:38,020 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-25 00:49:38,026 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-25 00:49:38,026 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-25 00:49:38,089 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-25 00:49:38,090 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-25 00:49:38,098 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-25 00:49:38,098 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-25 00:49:38,149 hn.py [第58行] 日志详情：开始链接河南非法营运测试数据库
+DEBUG AutoTestLog 2021-03-25 00:49:38,149 hn.py [第60行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-25 00:49:38,154 hn.py [第29行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-25 00:49:38,154 hn.py [第110行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-26 09:04:25,963 report.py [第15行] 日志详情：报告输出模块：获取当前脚本路径
+DEBUG AutoTestLog 2021-03-26 09:04:26,142 report.py [第17行] 日志详情：testsuit填充用例，<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_zj_datatest.test_warninfo testMethod=test_1warninfopush>, <test_zj_datatest.test_warninfo testMethod=test_check2>, <test_zj_datatest.test_warninfo testMethod=test_check3>, <test_zj_datatest.test_warninfo testMethod=test_check4>, <test_zj_datatest.test_warninfo testMethod=test_check5>, <test_zj_datatest.test_warninfo testMethod=test_check6>, <test_zj_datatest.test_warninfo testMethod=test_check7>, <test_zj_datatest.test_warninfo testMethod=test_check8>, <test_zj_datatest.test_warninfo testMethod=test_check9>, <test_zj_datatest.test_warninfo testMethod=test_check91>, <test_zj_datatest.test_warninfo testMethod=test_reset>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_zj_monitor.test_monitor testMethod=test_case>, <test_zj_monitor.test_monitor testMethod=test_monitorupload>]>]>, <unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_zj_suspect.test_mainpage testMethod=test_login>, <test_zj_suspect.test_mainpage testMethod=test_loginsystem>, <test_zj_suspect.test_mainpage testMethod=test_suspectdownload>, <test_zj_suspect.test_mainpage testMethod=test_suspectserch>, <test_zj_suspect.test_mainpage testMethod=test_suspectupload>]>]>]>
+DEBUG AutoTestLog 2021-03-26 09:04:26,142 report.py [第21行] 日志详情：报告输出模块：设置报告格式
+DEBUG AutoTestLog 2021-03-26 09:04:26,142 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:04:32,488 test_zj_datatest.py [第47行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-26 09:04:35,496 oprate.py [第18行] 日志详情：生成随机ID 8gl334m1j59e8ibd5fc0
+DEBUG AutoTestLog 2021-03-26 09:04:35,725 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:35,726 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:35,766 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:36,423 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00000
+DEBUG AutoTestLog 2021-03-26 09:04:36,424 oprate.py [第18行] 日志详情：生成随机ID a90728mh34d6483cfl0b
+DEBUG AutoTestLog 2021-03-26 09:04:36,493 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:36,494 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:36,546 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:36,713 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00001
+DEBUG AutoTestLog 2021-03-26 09:04:36,714 oprate.py [第18行] 日志详情：生成随机ID 85jfib40c1977gk23983
+DEBUG AutoTestLog 2021-03-26 09:04:36,796 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:36,797 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:36,833 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:37,416 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00002
+DEBUG AutoTestLog 2021-03-26 09:04:37,417 oprate.py [第18行] 日志详情：生成随机ID 3c39fi5da7k442mgjeh8
+DEBUG AutoTestLog 2021-03-26 09:04:37,504 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:37,505 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:37,543 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:37,945 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00003
+DEBUG AutoTestLog 2021-03-26 09:04:37,946 oprate.py [第18行] 日志详情：生成随机ID 7f92k14g91d2004ijha5
+DEBUG AutoTestLog 2021-03-26 09:04:38,046 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:38,047 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:38,083 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:38,242 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00004
+DEBUG AutoTestLog 2021-03-26 09:04:38,243 oprate.py [第18行] 日志详情：生成随机ID f02e3a83196j77i69b4l
+DEBUG AutoTestLog 2021-03-26 09:04:38,323 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:38,324 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:38,362 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:39,413 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00005
+DEBUG AutoTestLog 2021-03-26 09:04:39,414 oprate.py [第18行] 日志详情：生成随机ID 0da4fj901m323c86i277
+DEBUG AutoTestLog 2021-03-26 09:04:39,482 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:39,483 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:39,536 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:39,903 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00006
+DEBUG AutoTestLog 2021-03-26 09:04:39,904 oprate.py [第18行] 日志详情：生成随机ID fjb106c21993hamde8l6
+DEBUG AutoTestLog 2021-03-26 09:04:40,001 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:40,001 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:40,057 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:40,247 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00007
+DEBUG AutoTestLog 2021-03-26 09:04:40,248 oprate.py [第18行] 日志详情：生成随机ID j5i730a88db564he21g3
+DEBUG AutoTestLog 2021-03-26 09:04:40,334 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:40,335 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:40,393 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:40,538 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00008
+DEBUG AutoTestLog 2021-03-26 09:04:40,539 oprate.py [第18行] 日志详情：生成随机ID 0hfm28ag785j2316c164
+DEBUG AutoTestLog 2021-03-26 09:04:40,633 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:04:40,634 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:04:40,684 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 4)
+INFO AutoTestLog 2021-03-26 09:04:41,202 test_zj_datatest.py [第82行] 日志详情：预警信息推送成功：200,浙A00009
+DEBUG AutoTestLog 2021-03-26 09:04:41,205 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:04:45,684 test_zj_datatest.py [第47行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:04:52,214 test_zj_datatest.py [第102行] 日志详情：断言成功, acuinfo: 10
+DEBUG AutoTestLog 2021-03-26 09:04:52,276 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:04:56,995 test_zj_datatest.py [第47行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:05:03,488 test_zj_datatest.py [第124行] 日志详情：断言成功, acuinfo: 浙A00009
+DEBUG AutoTestLog 2021-03-26 09:05:03,550 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:05:08,116 test_zj_datatest.py [第47行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:05:11,183 test_zj_datatest.py [第142行] 日志详情：断言成功, acuinfo: 嘉兴市
+DEBUG AutoTestLog 2021-03-26 09:05:11,244 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:05:15,876 test_zj_datatest.py [第47行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:05:19,024 test_zj_datatest.py [第188行] 日志详情：断言成功, acuinfo: ['认领', '布控', '处理', '布控推荐', '详情']
+DEBUG AutoTestLog 2021-03-26 09:05:19,084 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:05:23,468 test_zj_datatest.py [第47行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:05:32,963 test_zj_datatest.py [第245行] 日志详情：断言成功, acuinfo: ['布控', '处理', '布控推荐', '详情', '', '33050020210326000039']
+DEBUG AutoTestLog 2021-03-26 09:05:33,025 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:05:37,410 test_zj_datatest.py [第47行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:05:58,586 test_zj_datatest.py [第307行] 日志详情：断言成功, acuinfo: ['处理', '布控推荐', '详情', '', '', '33040020210326000040']
+DEBUG AutoTestLog 2021-03-26 09:05:58,647 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:06:03,196 test_zj_datatest.py [第47行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-26 09:06:06,208 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:06:10,603 test_zj_datatest.py [第47行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:06:21,739 test_zj_datatest.py [第342行] 日志详情：断言成功, acuinfo: 33040020210326000036,已完成
+DEBUG AutoTestLog 2021-03-26 09:06:21,799 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:06:26,453 test_zj_datatest.py [第47行] 日志详情：登陆成功
+ERROR AutoTestLog 2021-03-26 09:06:35,652 test_zj_datatest.py [第363行] 日志详情：获取黑名单搜索结果元素失败，查询车辆：浙A00008
+Traceback (most recent call last):
+  File "/Users/liusonghao/PycharmProjects/pythonProject2/test_cases/test_zj_datatest.py", line 360, in test_check91
+    acu = driver.find_element_by_xpath(
+  File "/Users/liusonghao/Library/Python/3.8/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/Users/liusonghao/Library/Python/3.8/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/liusonghao/Library/Python/3.8/lib/python/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/liusonghao/Library/Python/3.8/lib/python/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[1]/div[2]/div[2]/table/tbody/tr/td[2]"}
+  (Session info: headless chrome=89.0.4389.90)
+
+DEBUG AutoTestLog 2021-03-26 09:06:35,662 test_zj_datatest.py [第26行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:06:40,320 test_zj_datatest.py [第47行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-26 09:06:43,411 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:43,412 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:43,423 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:43,424 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:43,424 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:43,491 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:43,491 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:43,499 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:43,499 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:43,500 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:43,500 oprate.py [第116行] 日志详情：('删除', '浙A00000', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:43,563 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:43,564 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:43,651 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:43,791 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:43,792 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:43,801 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:43,801 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:43,861 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:43,862 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:43,868 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:43,869 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:43,869 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:43,931 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:43,932 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:43,937 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:43,937 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:43,938 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:43,938 oprate.py [第116行] 日志详情：('删除', '浙A00000', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:44,003 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,004 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,061 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,144 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,144 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,154 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,154 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:44,211 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,211 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,215 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,215 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:44,216 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:44,290 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,291 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,295 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,296 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:44,296 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:44,296 oprate.py [第116行] 日志详情：('删除', '浙A00000', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:44,361 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,361 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,402 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,471 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,471 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,480 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,480 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:44,540 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,541 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,545 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,546 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:44,546 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:44,611 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,611 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,617 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,617 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:44,618 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:44,618 oprate.py [第116行] 日志详情：('删除', '浙A00000', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:44,691 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,692 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,741 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,812 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,813 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,820 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,821 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:44,880 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,881 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,890 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,890 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:44,890 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:44,951 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:44,951 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:44,957 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:44,957 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:44,958 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:44,958 oprate.py [第116行] 日志详情：('删除', '浙A00001', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:45,021 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,021 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,071 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,143 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,144 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,159 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,160 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:45,231 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,231 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,237 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,238 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:45,238 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:45,312 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,313 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,317 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,317 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:45,318 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:45,318 oprate.py [第116行] 日志详情：('删除', '浙A00001', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:45,371 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,372 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,410 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,480 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,481 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,486 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,487 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:45,553 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,554 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,565 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,566 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:45,566 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:45,631 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,631 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,638 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,638 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:45,638 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:45,638 oprate.py [第116行] 日志详情：('删除', '浙A00001', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:45,700 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,701 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,741 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,801 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,801 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,806 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,806 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:45,871 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,871 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,876 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,877 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:45,877 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:45,941 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:45,941 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:45,946 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:45,947 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:45,947 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:45,947 oprate.py [第116行] 日志详情：('删除', '浙A00001', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:46,015 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,016 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,050 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,120 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,121 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,126 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,126 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:46,182 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,182 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,191 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,191 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:46,191 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:46,260 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,260 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,269 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,269 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:46,269 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:46,269 oprate.py [第116行] 日志详情：('删除', '浙A00002', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:46,330 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,330 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,371 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,441 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,441 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,450 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,451 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:46,519 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,519 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,528 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,529 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:46,529 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:46,595 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,595 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,600 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,600 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:46,600 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:46,601 oprate.py [第116行] 日志详情：('删除', '浙A00002', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:46,661 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,661 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,701 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,771 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,771 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,778 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,778 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:46,841 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,842 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,848 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,849 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:46,849 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:46,923 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:46,924 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:46,928 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:46,929 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:46,929 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:46,929 oprate.py [第116行] 日志详情：('删除', '浙A00002', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:47,004 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,005 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:47,070 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:47,151 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,151 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:47,179 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:47,179 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:47,286 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,287 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:47,310 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:47,310 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:47,311 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:47,390 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,391 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:47,395 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:47,396 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:47,396 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:47,396 oprate.py [第116行] 日志详情：('删除', '浙A00002', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:47,542 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,542 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:47,651 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:47,732 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,733 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:47,738 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:47,738 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:47,800 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,801 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:47,806 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:47,806 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:47,807 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:47,883 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,883 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:47,889 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:47,889 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:47,890 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:47,890 oprate.py [第116行] 日志详情：('删除', '浙A00003', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:47,970 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:47,971 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,010 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,073 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,074 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,079 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,079 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:48,141 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,142 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,147 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,148 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:48,148 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:48,212 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,212 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,223 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,223 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:48,224 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:48,224 oprate.py [第116行] 日志详情：('删除', '浙A00003', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:48,311 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,312 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,361 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,441 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,441 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,452 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,452 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:48,521 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,522 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,532 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,532 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:48,533 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:48,601 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,601 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,605 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,606 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:48,606 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:48,606 oprate.py [第116行] 日志详情：('删除', '浙A00003', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:48,670 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,671 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,713 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,781 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,781 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,787 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,787 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:48,850 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,851 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,861 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,862 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:48,862 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:48,922 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:48,922 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:48,931 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:48,931 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:48,932 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:48,932 oprate.py [第116行] 日志详情：('删除', '浙A00003', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:49,011 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,011 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,061 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,142 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,143 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,153 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,153 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:49,230 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,231 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,250 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,251 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:49,251 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:49,357 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,358 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,361 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,362 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:49,362 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:49,362 oprate.py [第116行] 日志详情：('删除', '浙A00004', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:49,421 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,421 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,475 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,552 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,553 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,560 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,561 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:49,622 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,622 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,628 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,629 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:49,629 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:49,701 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,701 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,707 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,707 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:49,708 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:49,708 oprate.py [第116行] 日志详情：('删除', '浙A00004', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:49,770 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,771 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,812 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,890 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,891 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,902 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,902 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:49,955 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:49,956 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:49,966 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:49,967 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:49,967 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:50,030 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,031 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,035 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,036 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:50,036 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:50,036 oprate.py [第116行] 日志详情：('删除', '浙A00004', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:50,102 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,102 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,145 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,248 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,249 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,256 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,256 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:50,324 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,324 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,330 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,331 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:50,331 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:50,401 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,402 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,410 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,411 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:50,411 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:50,411 oprate.py [第116行] 日志详情：('删除', '浙A00004', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:50,471 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,471 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,521 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,580 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,581 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,586 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,587 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:50,650 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,651 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,656 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,656 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:50,657 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:50,730 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,731 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,737 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,738 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:50,738 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:50,738 oprate.py [第116行] 日志详情：('删除', '浙A00005', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:50,811 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,812 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,850 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,921 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,922 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:50,936 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:50,937 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:50,995 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:50,996 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,001 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,001 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:51,002 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:51,081 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,081 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,092 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,092 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:51,093 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:51,093 oprate.py [第116行] 日志详情：('删除', '浙A00005', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:51,160 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,161 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,217 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,284 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,285 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,291 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,292 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:51,342 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,343 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,353 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,354 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:51,354 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:51,441 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,441 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,446 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,446 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:51,446 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:51,446 oprate.py [第116行] 日志详情：('删除', '浙A00005', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:51,522 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,522 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,561 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,740 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,741 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,746 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,746 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:51,854 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,855 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,859 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,860 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:51,860 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:51,953 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:51,954 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:51,976 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:51,976 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:51,976 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:51,977 oprate.py [第116行] 日志详情：('删除', '浙A00005', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:52,061 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,061 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,121 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,180 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,181 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,186 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,186 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:52,241 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,241 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,249 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,249 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:52,249 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:52,307 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,307 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,317 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,318 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:52,318 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:52,318 oprate.py [第116行] 日志详情：('删除', '浙A00006', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:52,380 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,381 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,423 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,490 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,491 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,497 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,497 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:52,560 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,561 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,569 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,569 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:52,570 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:52,621 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,621 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,629 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,629 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:52,629 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:52,630 oprate.py [第116行] 日志详情：('删除', '浙A00006', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:52,691 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,692 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,730 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,800 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,801 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,806 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,807 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:52,860 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,861 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,868 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,869 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:52,869 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:52,921 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,921 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:52,928 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:52,928 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:52,929 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:52,929 oprate.py [第116行] 日志详情：('删除', '浙A00006', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:52,991 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:52,991 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,058 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,108 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,108 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,116 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,116 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:53,179 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,179 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,197 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,197 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:53,197 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:53,258 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,258 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,267 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,267 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:53,267 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:53,267 oprate.py [第116行] 日志详情：('删除', '浙A00006', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:53,330 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,331 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,370 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,447 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,448 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,455 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,455 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:53,531 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,531 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,536 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,536 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:53,537 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:53,601 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,602 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,606 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,607 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:53,607 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:53,607 oprate.py [第116行] 日志详情：('删除', '浙A00007', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:53,690 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,691 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,730 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,802 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,803 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,809 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,810 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:53,921 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,922 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,929 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,929 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:53,930 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:53,985 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:53,986 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:53,995 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:53,995 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:53,996 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:53,996 oprate.py [第116行] 日志详情：('删除', '浙A00007', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:54,061 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,061 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,135 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:54,220 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,221 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,229 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:54,229 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:54,291 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,291 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,303 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:54,304 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:54,304 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:54,361 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,362 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,380 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:54,380 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:54,381 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:54,381 oprate.py [第116行] 日志详情：('删除', '浙A00007', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:54,462 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,462 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,500 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:54,580 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,581 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,588 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:54,588 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:54,683 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,684 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,716 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:54,716 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:54,716 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:54,881 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,882 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,888 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:54,888 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:54,888 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:54,888 oprate.py [第116行] 日志详情：('删除', '浙A00007', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:54,950 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:54,951 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:54,992 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,060 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,061 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,067 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,068 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:55,130 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,130 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,136 oprate.py [第45行] 日志详情：执行查询SQL语句
+WARNING AutoTestLog 2021-03-26 09:06:55,136 oprate.py [第112行] 日志详情：数据库原不存在该车辆
+DEBUG AutoTestLog 2021-03-26 09:06:55,196 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,196 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,208 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,208 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:55,208 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:55,280 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,281 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,316 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,317 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:55,317 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:55,317 oprate.py [第116行] 日志详情：('删除', '浙A00008', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:55,370 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,371 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,411 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,491 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,491 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,498 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,498 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:55,560 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,561 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,567 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,567 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:55,568 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:55,631 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,631 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,641 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,641 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:55,641 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:55,642 oprate.py [第116行] 日志详情：('删除', '浙A00008', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:55,691 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,691 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,730 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,801 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,802 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,808 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,808 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:55,870 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,871 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,876 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,876 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:55,876 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:55,951 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:55,951 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:55,956 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:55,956 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:55,957 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:55,957 oprate.py [第116行] 日志详情：('删除', '浙A00008', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:56,014 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,015 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,052 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,133 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,134 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,138 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,139 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:56,190 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,191 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,197 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,197 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:56,198 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:56,424 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,424 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,430 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,430 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:56,431 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:56,431 oprate.py [第116行] 日志详情：('删除', '浙A00009', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:56,502 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,503 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,553 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,622 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,623 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,628 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,628 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:56,682 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,683 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,692 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,692 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:56,692 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:56,752 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,752 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,758 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,759 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:56,759 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:56,759 oprate.py [第116行] 日志详情：('删除', '浙A00009', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:56,822 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,822 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,872 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,941 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:56,942 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:56,952 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:56,952 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:57,030 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:57,031 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:57,039 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:57,039 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:57,040 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:57,092 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:57,093 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:57,097 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:57,097 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:57,098 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:57,098 oprate.py [第116行] 日志详情：('删除', '浙A00009', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:57,180 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:57,181 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:57,248 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:57,350 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:57,351 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:57,413 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:57,413 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:06:57,531 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:57,532 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:57,538 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:57,538 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:57,539 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:06:57,590 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:57,591 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:57,595 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:57,595 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:06:57,596 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:06:57,596 oprate.py [第116行] 日志详情：('删除', '浙A00009', ' 该车辆', 3, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:06:57,651 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:57,652 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:57,690 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:57,753 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:06:57,754 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:06:57,759 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:06:57,759 oprate.py [第123行] 日志详情：删除成功
+INFO AutoTestLog 2021-03-26 09:06:57,760 test_zj_datatest.py [第384行] 日志详情：reset success
+DEBUG AutoTestLog 2021-03-26 09:06:57,761 test_zj_monitor.py [第22行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:07:01,473 test_zj_monitor.py [第41行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-26 09:07:04,485 test_zj_monitor.py [第22行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-26 09:07:08,307 test_zj_monitor.py [第41行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-26 09:07:14,167 test_zj_monitor.py [第54行] 日志详情：选择上传文件
+ERROR AutoTestLog 2021-03-26 09:07:15,206 test_zj_monitor.py [第67行] 日志详情：失败
+Traceback (most recent call last):
+  File "/Users/liusonghao/PycharmProjects/pythonProject2/test_cases/test_zj_monitor.py", line 65, in test_monitorupload
+    self.assertEqual(expinfo, acuinfo)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '导入成功！' != '导入的数据当中存在重复数据，若继续导入则会覆盖原有数据。'
+- 导入成功！
++ 导入的数据当中存在重复数据，若继续导入则会覆盖原有数据。
+
+DEBUG AutoTestLog 2021-03-26 09:07:18,685 test_zj_suspect.py [第39行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:07:22,778 test_zj_suspect.py [第79行] 日志详情：断言成功
+DEBUG AutoTestLog 2021-03-26 09:07:26,347 test_zj_suspect.py [第39行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:07:29,418 test_zj_suspect.py [第57行] 日志详情：断言成功
+DEBUG AutoTestLog 2021-03-26 09:07:33,244 test_zj_suspect.py [第39行] 日志详情：登陆成功
+INFO AutoTestLog 2021-03-26 09:07:41,582 test_zj_suspect.py [第153行] 日志详情：断言成功,文件下载成功
+DEBUG AutoTestLog 2021-03-26 09:07:41,585 test_zj_suspect.py [第155行] 日志详情：状态复位，删除下载文件
+DEBUG AutoTestLog 2021-03-26 09:07:45,216 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-26 09:07:48,228 oprate.py [第18行] 日志详情：生成随机ID cd2hg3f663e1a4jk4719
+DEBUG AutoTestLog 2021-03-26 09:07:48,352 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:07:48,353 oprate.py [第35行] 日志详情：打开数据库游标
+INFO AutoTestLog 2021-03-26 09:07:48,400 oprate.py [第96行] 日志详情：('成功插入', 1, '条数据,level:', 2)
+INFO AutoTestLog 2021-03-26 09:07:48,400 test_zj_suspect.py [第117行] 日志详情：插入车牌浙A00001，level=2
+INFO AutoTestLog 2021-03-26 09:07:48,886 test_zj_suspect.py [第132行] 日志详情：断言成功, acuinfo: 浙A00001
+DEBUG AutoTestLog 2021-03-26 09:07:48,949 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:07:48,949 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:07:48,954 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:07:48,955 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:07:48,955 oprate.py [第52行] 日志详情：数据库游标关闭
+DEBUG AutoTestLog 2021-03-26 09:07:49,009 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:07:49,009 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:07:49,014 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:07:49,014 oprate.py [第48行] 日志详情：返回数据库查询row
+DEBUG AutoTestLog 2021-03-26 09:07:49,015 oprate.py [第52行] 日志详情：数据库游标关闭
+INFO AutoTestLog 2021-03-26 09:07:49,015 oprate.py [第116行] 日志详情：('删除', '浙A00001', ' 该车辆', 1, '条数据')
+DEBUG AutoTestLog 2021-03-26 09:07:49,080 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:07:49,080 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:07:49,120 oprate.py [第120行] 日志详情：执行删除SQL语句
+DEBUG AutoTestLog 2021-03-26 09:07:49,190 oprate.py [第33行] 日志详情：开始链接数据库
+DEBUG AutoTestLog 2021-03-26 09:07:49,190 oprate.py [第35行] 日志详情：打开数据库游标
+DEBUG AutoTestLog 2021-03-26 09:07:49,198 oprate.py [第45行] 日志详情：执行查询SQL语句
+DEBUG AutoTestLog 2021-03-26 09:07:49,199 oprate.py [第123行] 日志详情：删除成功
+DEBUG AutoTestLog 2021-03-26 09:07:52,800 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-26 09:07:57,954 test_zj_suspect.py [第93行] 日志详情：选择上传文件
+ERROR AutoTestLog 2021-03-26 09:08:00,995 test_zj_suspect.py [第106行] 日志详情：失败
+Traceback (most recent call last):
+  File "/Users/liusonghao/PycharmProjects/pythonProject2/test_cases/test_zj_suspect.py", line 104, in test_suspectupload
+    self.assertEqual(expinfo, acuinfo)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/unittest/case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '导入成功！' != '导入的数据当中存在重复数据，若继续导入则会覆盖原有数据。'
+- 导入成功！
++ 导入的数据当中存在重复数据，若继续导入则会覆盖原有数据。
+
+INFO AutoTestLog 2021-03-26 09:08:01,517 report.py [第36行] 日志详情：报告已上传192.168.90.162/linkcld/uploadfile/report.html
+DEBUG AutoTestLog 2021-03-31 10:03:39,846 report.py [第15行] 日志详情：报告输出模块：获取当前脚本路径
+DEBUG AutoTestLog 2021-03-31 10:03:39,853 report.py [第17行] 日志详情：testsuit填充用例，<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_zj_suspect.test_mainpage testMethod=test_login>, <test_zj_suspect.test_mainpage testMethod=test_loginsystem>, <test_zj_suspect.test_mainpage testMethod=test_suspectdownload>, <test_zj_suspect.test_mainpage testMethod=test_suspectserch>, <test_zj_suspect.test_mainpage testMethod=test_suspectupload>]>]>]>
+DEBUG AutoTestLog 2021-03-31 10:03:39,853 report.py [第21行] 日志详情：报告输出模块：设置报告格式
+DEBUG AutoTestLog 2021-03-31 10:03:44,861 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 10:04:42,138 test_zj_monitor.py [第22行] 日志详情：Chrome浏览器打开
+DEBUG AutoTestLog 2021-03-31 10:04:46,182 test_zj_monitor.py [第41行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 10:04:52,931 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 10:07:28,144 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 10:13:19,529 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 10:17:14,180 test_zj_suspect.py [第40行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 10:25:24,549 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 10:29:52,342 test_zj_suspect.py [第40行] 日志详情：登陆成功
+ERROR AutoTestLog 2021-03-31 11:25:25,753 test_zj_suspect.py [第37行] 日志详情：网络错误
+DEBUG AutoTestLog 2021-03-31 11:25:47,001 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 11:28:50,209 test_zj_suspect.py [第39行] 日志详情：登陆成功
+DEBUG AutoTestLog 2021-03-31 14:20:37,666 test_zj_suspect.py [第40行] 日志详情：登陆成功

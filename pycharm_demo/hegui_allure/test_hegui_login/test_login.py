@@ -42,8 +42,8 @@ class TestLogin():
             driver.find_element_by_xpath('//*[@id="login-Button"]').click()
             time.sleep(5)
         with allure.step('保存截图'):
-            driver.save_screenshot('./img/1.jpg')
-            allure.attach.file('./img/1.jpg', '截图', attachment_type=allure.attachment_type.JPG)
+            driver.save_screenshot('./img/2.jpg')
+            allure.attach.file('./img/2.jpg', '截图', attachment_type=allure.attachment_type.JPG)
 
 
 if __name__ == '__main__':

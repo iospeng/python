@@ -6,6 +6,10 @@
 # @Email   : 1907878011@qq.com
 # @Time    : 2021/9/6 15:51
 
+from selenium.webdriver.support.ui import WebDriverWait
+
+
 class TestImplicit():
     def test_imp(self):
-        webDriverWait
+
+        WebDriverWait

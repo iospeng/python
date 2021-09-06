@@ -3,8 +3,9 @@ import pytest
 import yaml
 from selenium import webdriver
 import allure
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import web
+from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Chrome()
 
@@ -38,8 +39,7 @@ class TestLogin():
             driver.get("http://192.168.90.101/login/login.html?service=http://192.168.90.162:9800/illegal-pro/")
             # time.sleep(1)
         with allure.step('输入用户名'):
-            webDriverWait
-            webDriverWait(driver, 10).expected_conditions.visibility_of_element_located
+            WebDriverWait(driver, 10).until(expected_conditions.visibility_of_element_located((By.XPATH, '//*[@id="username"]')))
             driver.find_element_by_xpath('//*[@id="username"]').send_keys(self.test_yml()['user'][0])
             # time.sleep(1)
         with allure.step('输入密码'):

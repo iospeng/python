@@ -3,6 +3,7 @@ from selenium import webdriver
 import time
 import unittest
 from Feifa_pacage.loggers import Log
+
 obj_log = Log()
 
 
@@ -15,6 +16,7 @@ class Logins(unittest.TestCase):
             cls.driver.maximize_window()
         except:
             obj_log.write_error('打开浏览器错误')
+        cls.driver.implicitly_wait(3)
 
     def test_log(self):
         """登录"""
@@ -43,17 +45,17 @@ class Logins(unittest.TestCase):
         logBut = self.driver.find_element_by_xpath('//*[@id="login-Button"]')
         self.driver.execute_script("arguments[0].click();", logBut)
         '''
-        time.sleep(1)
+        # time.sleep(1)
         try:
             self.driver.find_element_by_xpath('//*[@id="username"]').send_keys('system')
         except:
             obj_log.write_error('定位输入用户名错误')
-        time.sleep(1)
+        # time.sleep(1)
         try:
             self.driver.find_element_by_xpath('//*[@id="password"]').send_keys('12345678')
         except:
             obj_log.write_error('定位输入密码错误')
-        time.sleep(1)
+        # time.sleep(1)
         try:
             self.driver.find_element_by_xpath('//*[@id="login-Button"]').click()
         except:

@@ -2,6 +2,8 @@
 import time
 import os
 import unittest
+
+import pytest
 from BeautifulReport import BeautifulReport
 from Feifa_pacage.LY_Login import Logins
 from Feifa_pacage.SY_ShouYe import ShouYe
@@ -18,6 +20,7 @@ if __name__ == '__main__':
     # 设置文件保存路径
     log_path = os.path.join(log_path, 'Reports')
     print('本文件目录位置：' + log_path)
+
 
     # 实例化unittest.TestSuite()
     ts = unittest.TestSuite()

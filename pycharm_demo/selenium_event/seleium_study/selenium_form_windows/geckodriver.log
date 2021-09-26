@@ -1,0 +1,37 @@
+1632636860479	geckodriver	INFO	Listening on 127.0.0.1:61875
+1632636863525	mozrunner::runner	INFO	Running command: "E:\\Download\\huohu\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileKI7uJo"
+1632636864324	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileKI7uJo\\search.json.mozlz4", (void 0)))
+1632636867298	Marionette	INFO	Listening on port 60352
+1632636867427	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1632636871177	Marionette	INFO	Stopped listening on port 60352
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1632637412049	geckodriver	INFO	Listening on 127.0.0.1:59266
+1632637415119	mozrunner::runner	INFO	Running command: "E:\\Download\\huohu\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileX4LU2s"
+1632637415822	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileX4LU2s\\search.json.mozlz4", (void 0)))
+1632637418431	Marionette	INFO	Listening on port 56432
+1632637418929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1632637422953	Marionette	INFO	Stopped listening on port 56432
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1632638347719	geckodriver	INFO	Listening on 127.0.0.1:52583
+1632638350819	mozrunner::runner	INFO	Running command: "E:\\Download\\huohu\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileHZqb6N"
+1632638351533	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofileHZqb6N\\search.json.mozlz4", (void 0)))
+1632638354203	Marionette	INFO	Listening on port 53248
+1632638354625	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1632638358690	Marionette	INFO	Stopped listening on port 53248
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Child 9588, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

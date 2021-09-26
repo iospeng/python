@@ -10,16 +10,21 @@ from time import sleep
 
 import pytest
 from selenium import webdriver
-from selenium.webdriver import ActionChains
+from selenium.webdriver import ActionChains, TouchActions
+from selenium.webdriver.common.keys import Keys
 
 
 class TestActionChain():
     def setup(self):
-        self.driver = webdriver.Chrome()
+        option = webdriver.ChromeOptions()
+        option.add_experimental_option('w3c', False)
+        self.driver = webdriver.Chrome(options=option)
         self.driver.maximize_window()
+        # 隐式等待
+        self.driver.implicitly_wait(5)
 
     def teardown(self):
-        pass
+        self.driver.quit()
 
     # 调用pytest.makr.skip 不执行下面的方法
     @pytest.mark.skip
@@ -78,5 +83,30 @@ class TestActionChain():
         action.release()
         action.perform()
 
+    @pytest.mark.skip
+    # 输入空格 加删除一个字符
     def test_keys(self):
         self.driver.get('http://sahitest.com/demo/label.htm')
+        el = self.driver.find_element_by_xpath('/html/body/label[1]/input')
+        el.click()
+        action = ActionChains(self.driver)
+        action.send_keys('username').pause(1)
+        # 导入Keys,使用SPACE输入空格
+        action.send_keys(Keys.SPACE).pause(1)
+        action.send_keys('tom').pause(1)
+        # 输入删除键
+        action.send_keys(Keys.BACK_SPACE).perform()
+        sleep(3)
+
+    # touchaction 滑动页面，可操作H5页面
+    def test_touchaction_scrollbottom(self):
+        self.driver.get('http://www.baidu.com')
+        el = self.driver.find_element_by_id('kw')
+        el.send_keys('username')
+        el_search = self.driver.find_element_by_id('su')
+        action = TouchActions(self.driver)
+        # tap 是 TouchActions 的点击事件
+        action.tap(el_search)
+        action.scroll_from_element(el, 0, 1000).perform()
+        sleep(3)
+

@@ -7,6 +7,7 @@
 # @Time    : 2021/10/14 14:15
 from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.common.by import By
 
 
 class DriverSeal:
@@ -29,10 +30,23 @@ class DriverSeal:
             self.driver: WebDriver = driver
 
     # 封装find_element、解包元祖
-    def findtext(self, by, locator = None):
+    def findtext(self, by, locator=None):
         # 如果传参只有一个元祖，则解元祖
         if locator is None:
             return self.driver.find_element(*by)
         # 适配多种传参方式
         else:
-            return self.driver.find_element(by= by, value= locator)
+            return self.driver.find_element(by=by, value=locator)
+
+    # 封装iframe切换
+    def frame_switch(self, iframeID, locator=None):
+        """
+
+        :param iframeID:自传入一个参数，当做iframe的ID来用，直接通过ID切换iframe
+        :param locator:传入两个参数，第二个参数代表的是iframe的坐标，是列表的第几个，第一个参数是iframe定位的标签也就是‘iframe’
+        :return:
+        """
+        if locator is None:
+            return self.driver.switch_to.frame(iframeID)
+        else:
+            return self.driver.switch_to.frame(self.driver.find_elements(By.TAG_NAME, iframeID)[locator])

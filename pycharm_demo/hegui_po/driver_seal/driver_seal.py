@@ -11,17 +11,21 @@ from selenium.webdriver.common.by import By
 
 
 class DriverSeal:
+    # 添加base_url，可以支持测试用例灵活配置起始页
+    base_url = ''
+
     def __init__(self, driver=None):
         if driver is None:
+            # selenium 是根据坐标定位的，如果浏览器是缩放状态，定位会不准确
             # 通过remote 复用浏览器操作
-            # chrome_arg = webdriver.ChromeOptions()
+            chrome_arg = webdriver.ChromeOptions()
             # 加入调试地址
-            # chrome_arg.debugger_address = '127.0.0.1:9222'
+            chrome_arg.debugger_address = '127.0.0.1:9222'
             # 实例化driver对象
-            self.driver = webdriver.Chrome()
+            self.driver = webdriver.Chrome(executable_path='D:\Down\python\chromedriver.exe', options=chrome_arg)
             self.driver.maximize_window()
             # 打开浏览器
-            self.driver.get('http://192.168.90.101/login/login.html?service=http://192.168.90.162:9800/illegal-pro/')
+            self.driver.get(self.base_url)
             # 隐式等待
             self.driver.implicitly_wait(3)
         else:
@@ -42,7 +46,7 @@ class DriverSeal:
     def frame_switch(self, iframeID, locator=None):
         """
 
-        :param iframeID:自传入一个参数，当做iframe的ID来用，直接通过ID切换iframe
+        :param iframeID:只传入一个参数，当做iframe的ID来用，直接通过ID切换iframe
         :param locator:传入两个参数，第二个参数代表的是iframe的坐标，是列表的第几个，第一个参数是iframe定位的标签也就是‘iframe’
         :return:
         """

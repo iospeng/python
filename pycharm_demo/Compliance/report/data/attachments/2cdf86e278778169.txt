@@ -1,0 +1,1 @@
+----- [{'domain': '192.168.90.162', 'httpOnly': True, 'name': 'JSESSIONID', 'path': '/ims-pro', 'secure': False, 'value': '41C63A8726EE462E2E4728F50B238C27'}]

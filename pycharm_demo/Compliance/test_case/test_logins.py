@@ -10,6 +10,8 @@ from po.seat_register import SeatRegister
 
 
 class TestLogins:
+    """登录"""
     def test_logins(self):
+        """登录"""
         log = Logins()
         assert "郑州市监管" in log.logins()

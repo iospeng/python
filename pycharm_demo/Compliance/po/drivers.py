@@ -9,18 +9,22 @@ from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
+# driver = None
+# cookie = None
 
 class Drivers:
     # 添加base_url，可以支持测试用例灵活配置起始页
     base_url = ''
 
-    def __init__(self, driver=None, cookies=None):
-        if driver is None:
-            if cookies is None:
-                # 实例化driver对象
+    def __init__(self, drivers=None, cookie=None):
+        if drivers is None:
+            if cookie is None:
+                # option = webdriver.ChromeOptions()
+                # 不自动关闭浏览器
+                # option.add_experimental_option("detach", True)
+                # 实例化driver对象打开浏览器
                 self.driver = webdriver.Chrome()
                 self.driver.maximize_window()
-                # 打开浏览器
                 self.driver.get(self.base_url)
                 # 隐式等待
                 self.driver.implicitly_wait(3)
@@ -31,10 +35,10 @@ class Drivers:
                 # 打开浏览器
                 self.driver.get(self.base_url)
                 # 循环遍历cookie给当前打开页面复值cookie
-                for cookie in cookies:
-                    if 'expiry' in cookie.keys():
-                        cookie.pop("expiry")
-                    self.driver.add_cookie(cookie)
+                for ck in cookie:
+                    if 'expiry' in ck.keys():
+                        ck.pop("expiry")
+                    self.driver.add_cookie(ck)
                 # 复值cookie后再次打开浏览器
                 self.driver.get(self.base_url)
                 # 隐式等待
@@ -42,7 +46,7 @@ class Drivers:
         else:
             # 给self.driver 添加一个WebDriver对象注解，解决在其他文件中调用self.driver不提示的问题
             # 注解本身没有任何赋值作用，仅方便IDE操作
-            self.driver: WebDriver = driver
+            self.driver: WebDriver = self.driver
 
     # 封装find_element、解包元祖
     def findtext(self, by, locator=None):
@@ -56,7 +60,6 @@ class Drivers:
     # 封装iframe切换
     def frame_switch(self, iframeID, locator=None):
         """
-
         :param iframeID:只传入一个参数，当做iframe的ID来用，直接通过ID切换iframe
         :param locator:传入两个参数，第二个参数代表的是iframe的坐标，是列表的第几个，第一个参数是iframe定位的标签也就是‘iframe’
         :return:

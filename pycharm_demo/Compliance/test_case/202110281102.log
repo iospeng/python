@@ -1,0 +1,4 @@
+2021-10-28 11:02:40,311 - remote_connection.py[line:412] - DEBUG: POST http://localhost:56342/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2021-10-28 11:02:40,316 - connectionpool.py[line:227] - DEBUG: Starting new HTTP connection (1): localhost:56342
+2021-10-28 11:02:41,239 - connectionpool.py[line:452] - DEBUG: http://localhost:56342 "POST /session HTTP/1.1" 200 790
+2021-10-28 11:02:41,257 - remote_connection.py[line:463] - DEBUG: Finished Request

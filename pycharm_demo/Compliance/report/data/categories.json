@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'shell脚本.pdf' in '项目部署.pdf'\n +  where '项目部署.pdf' = <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x000001DC384255E0>>()\n +    where <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x000001DC384255E0>> = <po.seat_register.SeatRegister object at 0x000001DC384255E0>.test_file_yesorno",
+      "children" : [ {
+        "name" : "test_file",
+        "uid" : "e9a131bc0ee439db",
+        "parentUid" : "a04ee9ed28ec21851de3f1887206e931",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635319424443,
+          "stop" : 1635319431872,
+          "duration" : 7429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a04ee9ed28ec21851de3f1887206e931"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"btn btn-info\">...</button> is not clickable at point (920, 184). Other element would receive the click: <div class=\"layui-layer-shade\" id=\"layui-layer-shade1\" times=\"1\" style=\"z-index: 19891014; background-color: rgb(204, 204, 204); opacity: 0.2;\"></div>\n  (Session info: chrome=95.0.4638.54)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00713AB3+2505395]\n\tOrdinal0 [0x006AAE41+2076225]\n\tOrdinal0 [0x005B2498+1057944]\n\tOrdinal0 [0x005E2C09+1256457]\n\tOrdinal0 [0x005E0F48+1249096]\n\tOrdinal0 [0x005DED0D+1240333]\n\tOrdinal0 [0x005DDB68+1235816]\n\tOrdinal0 [0x005D3857+1194071]\n\tOrdinal0 [0x005F59F3+1333747]\n\tOrdinal0 [0x005D3676+1193590]\n\tOrdinal0 [0x005F5ADA+1333978]\n\tOrdinal0 [0x00605168+1397096]\n\tOrdinal0 [0x005F58BB+1333435]\n\tOrdinal0 [0x005D23E4+1188836]\n\tOrdinal0 [0x005D323F+1192511]\n\tGetHandleVerifier [0x0089CB36+1554566]\n\tGetHandleVerifier [0x00944A0C+2242396]\n\tGetHandleVerifier [0x007A0E0B+523099]\n\tGetHandleVerifier [0x0079FEB0+519168]\n\tOrdinal0 [0x006B02FD+2097917]\n\tOrdinal0 [0x006B4388+2114440]\n\tOrdinal0 [0x006B44C2+2114754]\n\tOrdinal0 [0x006BE041+2154561]\n\tBaseThreadInitThunk [0x77A5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77BA7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77BA7A6E+238]",
+      "children" : [ {
+        "name" : "test_file_replace",
+        "uid" : "880c401de9ca9774",
+        "parentUid" : "07981e75aa75b3a1ac9b5559f1e6341f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1635320721536,
+          "stop" : 1635320736013,
+          "duration" : 14477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "07981e75aa75b3a1ac9b5559f1e6341f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

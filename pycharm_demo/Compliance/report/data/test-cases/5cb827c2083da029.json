@@ -1,0 +1,74 @@
+{
+  "uid" : "5cb827c2083da029",
+  "name" : "test_file",
+  "fullName" : "test_register_from.TestRegisterFrom#test_file",
+  "historyId" : "2b3fa4619e83178fe76321b389f76e87",
+  "time" : {
+    "start" : 1635319115273,
+    "stop" : 1635319123273,
+    "duration" : 8000
+  },
+  "description" : "检查文件是否上传",
+  "descriptionHtml" : "<p>检查文件是否上传</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'shell脚本.pdf' in '项目部署.pdf'\n +  where '项目部署.pdf' = <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x00000282DB16D130>>()\n +    where <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x00000282DB16D130>> = <po.seat_register.SeatRegister object at 0x00000282DB16D130>.test_file_yesorno",
+  "statusTrace" : "self = <test_case.test_register_from.TestRegisterFrom object at 0x00000282DB16D1F0>\n\n    def test_file(self):\n        \"\"\"检查文件是否上传\"\"\"\n        file = SeatRegister(driver=None, cookies=self.cookie)\n>       assert \"shell脚本.pdf\" in file.test_file_yesorno()\nE       AssertionError: assert 'shell脚本.pdf' in '项目部署.pdf'\nE        +  where '项目部署.pdf' = <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x00000282DB16D130>>()\nE        +    where <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x00000282DB16D130>> = <po.seat_register.SeatRegister object at 0x00000282DB16D130>.test_file_yesorno\n\ntest_register_from.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "检查文件是否上传",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'shell脚本.pdf' in '项目部署.pdf'\n +  where '项目部署.pdf' = <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x00000282DB16D130>>()\n +    where <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x00000282DB16D130>> = <po.seat_register.SeatRegister object at 0x00000282DB16D130>.test_file_yesorno",
+    "statusTrace" : "self = <test_case.test_register_from.TestRegisterFrom object at 0x00000282DB16D1F0>\n\n    def test_file(self):\n        \"\"\"检查文件是否上传\"\"\"\n        file = SeatRegister(driver=None, cookies=self.cookie)\n>       assert \"shell脚本.pdf\" in file.test_file_yesorno()\nE       AssertionError: assert 'shell脚本.pdf' in '项目部署.pdf'\nE        +  where '项目部署.pdf' = <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x00000282DB16D130>>()\nE        +    where <bound method SeatRegister.test_file_yesorno of <po.seat_register.SeatRegister object at 0x00000282DB16D130>> = <po.seat_register.SeatRegister object at 0x00000282DB16D130>.test_file_yesorno\n\ntest_register_from.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f1497e9df1406971",
+      "name" : "stdout",
+      "source" : "f1497e9df1406971.txt",
+      "type" : "text/plain",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_register_from"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegisterFrom"
+  }, {
+    "name" : "host",
+    "value" : "MS-AMWIIJEZADQO"
+  }, {
+    "name" : "thread",
+    "value" : "8152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_register_from"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cb827c2083da029.json",
+  "parameterValues" : [ ]
+}

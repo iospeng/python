@@ -1,0 +1,81 @@
+{
+  "uid" : "b6a832e42a7337c2",
+  "name" : "test_file_replace",
+  "fullName" : "test_register_from.TestRegisterFrom#test_file_replace",
+  "historyId" : "7709ace15a01b9dfc604a1efe1b37bb8",
+  "time" : {
+    "start" : 1635319431954,
+    "stop" : 1635319459829,
+    "duration" : 27875
+  },
+  "description" : "上传附件",
+  "descriptionHtml" : "<p>上传附件</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "上传附件",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "548272a799262d5",
+      "name" : "stdout",
+      "source" : "548272a799262d5.txt",
+      "type" : "text/plain",
+      "size" : 16
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_register_from"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegisterFrom"
+  }, {
+    "name" : "host",
+    "value" : "MS-AMWIIJEZADQO"
+  }, {
+    "name" : "thread",
+    "value" : "14344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_register_from"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd73204f8b311474",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button type=\"button\" class=\"btn btn-info\">...</button> is not clickable at point (920, 184). Other element would receive the click: <div class=\"modal-body\">...</div>\n  (Session info: chrome=95.0.4638.54)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00713AB3+2505395]\n\tOrdinal0 [0x006AAE41+2076225]\n\tOrdinal0 [0x005B2498+1057944]\n\tOrdinal0 [0x005E2C09+1256457]\n\tOrdinal0 [0x005E0F48+1249096]\n\tOrdinal0 [0x005DED0D+1240333]\n\tOrdinal0 [0x005DDB68+1235816]\n\tOrdinal0 [0x005D3857+1194071]\n\tOrdinal0 [0x005F59F3+1333747]\n\tOrdinal0 [0x005D3676+1193590]\n\tOrdinal0 [0x005F5ADA+1333978]\n\tOrdinal0 [0x00605168+1397096]\n\tOrdinal0 [0x005F58BB+1333435]\n\tOrdinal0 [0x005D23E4+1188836]\n\tOrdinal0 [0x005D323F+1192511]\n\tGetHandleVerifier [0x0089CB36+1554566]\n\tGetHandleVerifier [0x00944A0C+2242396]\n\tGetHandleVerifier [0x007A0E0B+523099]\n\tGetHandleVerifier [0x0079FEB0+519168]\n\tOrdinal0 [0x006B02FD+2097917]\n\tOrdinal0 [0x006B4388+2114440]\n\tOrdinal0 [0x006B44C2+2114754]\n\tOrdinal0 [0x006BE041+2154561]\n\tBaseThreadInitThunk [0x77A5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77BA7A9E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77BA7A6E+238]",
+      "time" : {
+        "start" : 1635319123353,
+        "stop" : 1635319138357,
+        "duration" : 15004
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6a832e42a7337c2.json",
+  "parameterValues" : [ ]
+}

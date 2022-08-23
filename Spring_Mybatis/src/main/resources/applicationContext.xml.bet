@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd
+        ">
+    <!--配置bean setter 注入依赖-->
+<!--    <bean id="userDao" class="com.test.dao.impl.UserDaoImpl">
+        <property name="count" value="100"/>
+    </bean>
+    <bean id="userService" class="com.test.service.impl.AccountServiceImpl.UserServiceImpl">
+        &lt;!&ndash;
+            name：表示service中某一具体属性（dao对象名称）
+            ref：表示dao层配置的bean的ID
+        &ndash;&gt;
+        <property name="userDao" ref="userDao"/>
+    </bean>-->
+    <!--管理第三方库对象-->
+<!--    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://121.199.61.136:3306"/>
+        <property name="username" value="username"/>
+        <property name="password" value="username"/>
+    </bean>-->
+    <!--自动装配依赖-->
+    <!--<bean id="userDao" class="com.test.dao.impl.UserDaoImpl" autowire="byType">
+        <property name="count" value="10"/>
+        <property name="name" value="zhangsan"/>
+    </bean>-->
+    <!--集合注入-->
+    <!--数组、list、set-->
+        <!--<bean id="userDao" class="com.test.dao.impl.UserDaoImpl">
+            <property name="array">
+                <array>
+                    <value>zhangsan</value>
+                    <value>李四</value>
+                    <value>wangwu</value>
+                </array>
+            </property>
+            <property name="list">
+                <list>
+                    <value>list</value>
+                    <value>list1</value>
+                    <value>list2</value>
+                </list>
+            </property>
+            <property name="set">
+                <set>
+                    <value>set</value>
+                    <value>set1</value>
+                    <value>set2</value>
+                </set>
+            </property>
+            <property name="map">
+                <map>
+                    <entry key="name" value="map1"/>
+                    <entry key="name1" value="map2"/>
+                    <entry key="name2" value="map3"/>
+                </map>
+            </property>
+            <property name="properties">
+                <props>
+                    <prop key="properties1">properties值1</prop>
+                    <prop key="properties2">properties值2</prop>
+                    <prop key="properties3">properties值3</prop>
+                </props>
+            </property>
+        </bean>-->
+<!--    1.开启命名空间-->
+<!--    2.使用context命名空间加载properties文件-->
+<!--    <context:property-placeholder location="jdbc.properties"/>-->
+    <!--<context:property-placeholder location="classpath*:*.properties" system-properties-mode="NEVER"/>
+&lt;!&ndash;    3.使用占位符${}读取properties配置文件中的属性&ndash;&gt;
+    <bean class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+    <bean id="userDao" class="com.test.dao.impl.UserDaoImpl">
+        <property name="name" value="${jdbc.driver}"/>
+    </bean>-->
+    <context:component-scan base-package="com.test"/>
+</beans>
